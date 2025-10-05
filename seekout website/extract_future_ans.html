@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="access-token"
+      content="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzIwNzE3LCJpYXQiOjE3MzcxMzY3MTcsImp0aSI6ImE0ZTE5MzhhODQzMjQyYjI4MDMyMGM1NmY4MGRlYjI1IiwidXNlcl9pZCI6MTk4fQ.Vh5v70TAi4C5ljWyPC2FsSahBBJxexr8fYcCvtU59k4">
+    <title>Check Answer</title>
+  </head>
+<body>
+    <!-- Navigation -->
+    <a href="index.html">Go to Current Question Page</a>
+  <h1>Submit Question ID and Fetch Answers</h1>
+
+  <!-- Input Section -->
+  <label for="question-id-input">Enter Question ID:</label>
+  <input type="text" id="question-id-input" placeholder="Enter Question ID" />
+  <button id="fetch-answer">Fetch Answer</button>
+
+  <!-- Results Section -->
+  <h2>Fetched Answers</h2>
+  <ul id="answers-list"></ul>
+
+  <!-- Error Section -->
+  <h2>Error Response</h2>
+  <pre id="error-response"></pre>
+
+
+
+  <!-- CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script rel="script" src="script2.js"></script>
+</body>
+
+</html>
